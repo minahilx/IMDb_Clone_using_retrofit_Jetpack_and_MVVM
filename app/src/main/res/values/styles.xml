@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#6F628C</item>
+        <item name="colorPrimaryDark">#9586DA</item>
+        <item name="colorAccent">#5B4197</item>
+
+    </style>
+    <!--
+        <style name="AppTheme.NoActionBar">
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+
+        </style>
+    -->
+    <style name="viewParent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="viewParent.headerText">
+        <item name="android:textColor">@color/purple_500</item>
+        <item name="android:textSize">@dimen/headerTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="viewParent.headerText.NoMode">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="loginButton" parent="viewParent">
+        <item name="android:background">@drawable/signup_btn_background</item>
+        <item name="android:textColor">@color/purple_200</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="fontStyle" parent="@android:style/TextAppearance.Small">
+        <item name="android:fontFamily">@font/kkk</item>
+    </style>
+    <style name="MySnackBarStyle" parent="Widget.MaterialComponents.Snackbar">
+        <item name="android:background">@color/mySnackbarBackgroundColor</item>
+    </style>
+</resources>
+
+
+
